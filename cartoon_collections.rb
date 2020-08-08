@@ -24,7 +24,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
   planeteer_calls.select do |string|
-    string = valid_calls
+    valid_calls[string]
   end
   
 end
